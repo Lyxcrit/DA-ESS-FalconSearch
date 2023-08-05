@@ -30,9 +30,7 @@ FalconSearch is a Splunk app designed to revolutionize your approach to Enterpri
 
 1. Access the FalconSearch app from the Splunk Home screen.
 
-2. Explore the intuitive dashboard and user-friendly interface.
-
-3. To properly set up the app:
+2. To properly set up the app:
 
     a. Modify the search macros to restrict indexes on the basesearches (by default they are set to index=*).
     
@@ -65,9 +63,9 @@ FalconSearch is a Splunk app designed to revolutionize your approach to Enterpri
     
     - Filter on App: DA-ESS-FalconSearch and Owner: Nobody.
     
-4. Once the base searches are enabled, you can start enabling content under the Enterprise Security App.
+3. Once the base searches are enabled, you can start enabling content under the Enterprise Security App.
 
-5. Manage correlation searches via Configure -> Content -> Content Management. Search for correlation searches starting with the "FS - " prefix.
+4. Manage correlation searches via Configure -> Content -> Content Management. Search for correlation searches starting with the "FS - " prefix.
 
 ## Contributing
 
