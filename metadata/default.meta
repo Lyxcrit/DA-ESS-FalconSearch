@@ -1,0 +1,5 @@
+[]
+access = read : [ * ], write : [ admin, ess_admin, power ]
+export = system
+owner = nobody
+version = 1.0.1
