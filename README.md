@@ -8,6 +8,18 @@ Modified version of Splunk Enterprise Security Content Update leveraging basesea
 
 FalconSearch is a Splunk app designed to revolutionize your approach to Enterprise Security. By leveraging advanced base searching techniques, FalconSearch optimizes search times and resource usage, delivering lightning-fast results with reduced overhead. This app integrates seamlessly with your existing Splunk environment, enhancing your cybersecurity operations without sacrificing performance.
 
+## Required Apps
+
+Before using FalconSearch, make sure you have the following apps installed:
+
+- [Splunk Enterprise Security](https://splunkbase.splunk.com/app/263): A comprehensive solution for security information and event management (SIEM).
+
+- [Splunk Common Information Model (CIM)](https://splunkbase.splunk.com/app/1621/): A standardized framework for normalizing data for analysis and reporting.
+
+- [Splunk Enterprise Security Content Update (DA-ESS-ContentUpdate)](https://splunkbase.splunk.com/app/3449/): A content update for Splunk Enterprise Security.
+
+Ensure that these apps are properly installed and configured before setting up FalconSearch.
+
 ## Key Features
 
 - **Efficient Search:** FalconSearch harnesses the power of base searching, enabling quicker data retrieval while conserving valuable resources.
@@ -67,13 +79,20 @@ FalconSearch is a Splunk app designed to revolutionize your approach to Enterpri
 
 4. Manage correlation searches via Configure -> Content -> Content Management. Search for correlation searches starting with the "FS - " prefix.
 
+## Changelog
+
+### [Version 1.0.2] - 8-7-2023
+
+- **Changed:** Corrected some syntax issues for a few correlation searches having "bad trailing terminators
+- **Changed:** App now ships with all base searches and correlation searches as disabled to align with Splunk appInspect requirements.
+
 ## Contributing
 
 We welcome contributions from the community! If you encounter issues, have suggestions for improvements, or want to contribute code, please open an issue or pull request in this repository.
 
 ## License
 
-FalconSearch is released under the [MIT License](LICENSE).
+FalconSearch is released under the [Apache License 2.0](LICENSE).
 
 ## Contact
 
