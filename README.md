@@ -1,5 +1,10 @@
 # DA-ESS-FalconSearch
 Modified version of Splunk Enterprise Security Content Update leveraging basesearches in order to reduce resources used and allow for more enabled content
+
+```diff
+- THIS APP IS SELF MAINTAINED AND NOT AFFILIATED WITH SPLUNK INC. OR ESCU}
+- THIS APP IS DISTRIBUTED AS-IS AND MAINTAINED BY @Lyxcrit
+```
 # FalconSearch: Enhancing Enterprise Security with Speed and Efficiency
 
 ![FalconSearch Logo](static/appIcon.png)
@@ -96,7 +101,7 @@ FalconSearch is released under the [Apache License 2.0](LICENSE).
 
 ## Contact
 
-For questions, feedback, or collaboration opportunities, please contact me at bmatlock@splunk.com or generate an issue here.
+For questions, feedback, or collaboration opportunities, please contact me at lyxcrit@gmail.com or generate an issue here.
 
 ---
 
