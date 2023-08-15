@@ -21,6 +21,8 @@ Before using FalconSearch, make sure you have the following apps installed:
 
 - [Splunk Common Information Model (CIM)](https://splunkbase.splunk.com/app/1621/): A standardized framework for normalizing data for analysis and reporting.
 
+- [Splunk Machine Learning Toolkit](https://splunkbase.splunk.com/app/2890): Provides ML and AI to allow detections of outliers.
+
 - [Splunk Enterprise Security Content Update (DA-ESS-ContentUpdate)](https://splunkbase.splunk.com/app/3449/): A content update for Splunk Enterprise Security.
 
 Ensure that these apps are properly installed and configured before setting up FalconSearch.
