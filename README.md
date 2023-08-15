@@ -2,7 +2,7 @@
 Modified version of Splunk Enterprise Security Content Update leveraging basesearches in order to reduce resources used and allow for more enabled content
 
 ```diff
-- THIS APP IS SELF MAINTAINED AND NOT AFFILIATED WITH SPLUNK INC. OR ESCU}
+- THIS APP IS SELF MAINTAINED AND NOT AFFILIATED WITH SPLUNK INC. OR ESCU
 - THIS APP IS DISTRIBUTED AS-IS AND MAINTAINED BY @Lyxcrit
 ```
 # FalconSearch: Enhancing Enterprise Security with Speed and Efficiency
