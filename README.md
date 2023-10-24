@@ -88,9 +88,9 @@ Ensure that these apps are properly installed and configured before setting up F
 
 ## Changelog
 
-### [Version 1.0.2] - 8-7-2023
+### [Version 1.0.4] - 10-24-2023
 
-- **Changed:** Corrected some syntax issues for a few correlation searches having "bad trailing terminators
+- **Changed:** Modifed basesearches to leverage datamodels, to significantly reduce search time. This method uses the DIRECTIVES portion of Splunk which is undocumented externally
 - **Changed:** App now ships with all base searches and correlation searches as disabled to align with Splunk appInspect requirements.
 
 ## Contributing
