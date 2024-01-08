@@ -88,6 +88,12 @@ Ensure that these apps are properly installed and configured before setting up F
 
 ## Changelog
 
+### [Version 1.0.5] - 01-08-2024
+
+- **Changed:** Modifed basesearch for Authentication logs to include EventCode field. 
+- **Changesd** Modified Change Events basesearch to correct unmatched parenthesis
+- **TODO:**  Look at the map portion of 'FS - Potential Password in Username - Rule' as this doesn't seem to be returning proper information.
+
 ### [Version 1.0.4] - 10-24-2023
 
 - **Changed:** Modifed basesearches to leverage datamodels, to significantly reduce search time. This method uses the DIRECTIVES portion of Splunk which is undocumented externally
@@ -103,8 +109,8 @@ FalconSearch is released under the [Apache License 2.0](LICENSE).
 
 ## Contact
 
-For questions, feedback, or collaboration opportunities, please contact me at lyxcrit@gmail.com or generate an issue here.
+For questions, feedback, or collaboration opportunities, please contact me at bmatlock@wisehawktech.com or generate an issue here.
 
 ---
 
-© 2023 FalconSearch. All Rights Reserved.
+© 2024 WiseHawkTech LLC, FalconSearch. All Rights Reserved.
